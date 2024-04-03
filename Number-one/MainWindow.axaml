@@ -1,0 +1,44 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Number_one.MainWindow"
+        Title="Number_one"
+		WindowStartupLocation="CenterScreen">
+
+
+	<Grid>
+		<TextBlock Text="Is this Your phone number?" Margin="0 0 0 0"
+		  HorizontalAlignment="Center"
+		  VerticalAlignment="Center">
+		</TextBlock>
+		<Button Background="White"
+		  Name="yes"
+		  Content="Yes"
+		  BorderBrush="Gray"
+		  HorizontalAlignment="Center"
+		  Margin="-138 60 0 0"
+		  Height="30"
+		  Width="45">
+		</Button>
+		<Button Background="White"
+		  Content="No"
+		  BorderBrush="Gray"
+		  HorizontalAlignment="Center"
+		  Margin="-45 60 0 0"
+		  Height="30"
+		  Width="40"
+			 Click="Click_No">
+		</Button>
+		<TextBlock
+		 Width="113"
+		 Text = "+79431233432"
+		 VerticalAlignment="Center"
+		 FontSize="15"
+		 FontWeight="DemiBold"
+		 Margin="300 0 0 0"
+		 x:Name="message">
+		</TextBlock>
+	</Grid>
+</Window>
